@@ -1,1 +1,3 @@
-console.log("awikwok");
+import "./style.css";
+
+alert("terhubun");
