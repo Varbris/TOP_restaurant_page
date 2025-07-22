@@ -1,5 +1,5 @@
 import "./style.css";
-import { cekTerhubung } from "./initialPageLoad";
+import { pageLoad } from "./initialPageLoad";
 
 
-cekTerhubung();
+pageLoad();
