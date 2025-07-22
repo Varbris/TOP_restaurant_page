@@ -1,3 +1,5 @@
 import "./style.css";
+import { cekTerhubung } from "./initialPageLoad";
 
-alert("terhubun");
+
+cekTerhubung();
