@@ -16,10 +16,12 @@ module.exports = {
   },
 
   plugins: [new HtmlWebPackPlugin({ template: "./src/template.html" })],
-  module:{
-    rules:[{
-      test: /\.css$/i,
-      use: ["style-loader", "css-loader"]
-    }]
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
 };

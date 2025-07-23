@@ -73,3 +73,16 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.navbar {
+  border: 1px solid black;
+  background-color: red;
+}
+
+.navbar-option {
+  background-color: white;
+  margin: 0 auto;
+  width: 50vw;
+  list-style-type: none;
+  display: flex;
+}
