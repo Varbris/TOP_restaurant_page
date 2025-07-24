@@ -123,3 +123,24 @@ body {
   border-radius: 3px;
   color: white;
 }
+
+.content {
+  margin: 0 auto;
+  width: 600px;
+  padding: 5px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content .content-header {
+  background-color: white;
+  border: 5px solid black;
+  color: black;
+  border-radius: 5px;
+}
+
+.content .content-article {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
