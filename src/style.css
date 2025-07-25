@@ -98,6 +98,9 @@ body {
   height: 100vh;
 }
 
+footer {
+  background-color: white;
+}
 .navbar {
   border: 1px solid black;
   background-color: red;
