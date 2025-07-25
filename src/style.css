@@ -90,6 +90,12 @@ h6 {
 
 body {
   font-family: "winkyrough";
+  background-image: url("./img/5193138.jpg");
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
 }
 
 .navbar {
@@ -125,9 +131,11 @@ body {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 600px;
   padding: 5px;
+  background: white;
+  border-radius: 5px;
 }
 
 .content h1 {
@@ -143,4 +151,9 @@ body {
 
 .content .content-article {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.content-article .pizaria-img {
+  width: 50vw;
+  margin: 0 auto;
 }

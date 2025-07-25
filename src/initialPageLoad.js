@@ -1,17 +1,17 @@
-export function pageLoad() {
-  const content = document.getElementById("content");
-  const containerHeader = document.createElement("div");
-  const introductionContainer = document.createElement("div");
-  introductionContainer.classList.add("content-article");
-  containerHeader.classList.add("content-header");
-  const text = document.createElement("h1");
-  const p = document.createElement("p");
-  content.innerText = "";
-  p.innerText = "The best pizza in town";
+import pizzaImage from "./img/10219.jpg";
 
-  text.innerText = "PIZZARIA MAMMAMIA";
-  containerHeader.appendChild(text);
-  introductionContainer.appendChild(p);
-  content.appendChild(containerHeader);
-  content.appendChild(introductionContainer);
+export function pageLoad() {
+  const contentContainer = document.getElementById("content");
+  contentContainer.innerText = "";
+  const myImage = new Image();
+  myImage.src = pizzaImage;
+  contentContainer.innerHTML = `
+    <div class="content-header">
+        <h1>PIZZARIA MAMMAMIA</h1>
+    </div>
+    <div class="content-article">
+      <img src="${myImage.src}" alt="" class="pizaria-img">
+      <p>The best pizza in town</p>
+    </div>
+  `;
 }
